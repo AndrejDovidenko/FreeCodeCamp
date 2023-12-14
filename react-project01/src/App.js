@@ -1,8 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
 const JSX = (
-  <div className="myDiv">
-    <h1>Add a class to this div</h1>
+  <div>
+    <h2>Welcome to React!</h2> <br />
+    <p>Be sure to close all tags!</p>
+    <hr />
   </div>
 );
 
