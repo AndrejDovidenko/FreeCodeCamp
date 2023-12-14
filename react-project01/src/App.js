@@ -2,13 +2,9 @@ import logo from "./logo.svg";
 import "./App.css";
 const JSX = (
   <div>
-    <h1></h1>
-    <p></p>
-    <ul>
-      <li>First</li>
-      <li>Second</li>
-      <li>Third</li>
-    </ul>
+    {/*some comment */}
+    <h1>This is a block of JSX</h1>
+    <p>Here's a subtitle</p>
   </div>
 );
 function App() {
