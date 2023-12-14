@@ -1,12 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 const JSX = (
-  <div>
-    {/*some comment */}
-    <h1>This is a block of JSX</h1>
-    <p>Here's a subtitle</p>
+  <div id="challenge-node">
+    <h1>Hello World</h1>
+    <p>Lets render this to the DOM</p>
   </div>
 );
+// Add your code below this line
+
+const div = document.getElementById("challenge-node");
+ReactDOM.render(JSX, div);
 function App() {
   return JSX;
 }
